@@ -1,38 +1,50 @@
 data:extend({
 	{
 		type = "string-setting",
-		name = "FasterRoboportCharging-robo-charging-speed",
+		name = "FasterPersonalRoboportCharging-robo-charging-speed",
 		setting_type = "startup",
 		default_value = "1MW",
 	},
     {
 		type = "string-setting",
-		name = "FasterRoboportCharging-roboport-charging-speed",
+		name = "FasterPersonalRoboportCharging-roboport-charging-speed",
 		setting_type = "startup",
-		default_value = "5MW",
+		default_value = "3.5MW",
 	},
     {
 		type = "string-setting",
-		name = "FasterRoboportCharging-roboport-idle-usage",
+		name = "FasterPersonalRoboportCharging-roboport-internal-buffer-capacity",
 		setting_type = "startup",
-		default_value = "50kW",
+		default_value = "35MJ",
 	},
-    {
+	{
+		type = "int-setting",
+		name = "FasterPersonalRoboportCharging-roboport-construction-radius",
+		setting_type = "startup",
+		default_value = "15",
+	},
+	{
 		type = "string-setting",
-		name = "FasterRoboportCharging-roboport-internal-buffer-capacity",
+		name = "FasterPersonalRoboportIICharging-robo-charging-speed",
 		setting_type = "startup",
-		default_value = "100MJ",
+		default_value = "1MW",
+	},
+	{
+		type = "string-setting",
+		name = "FasterPersonalRoboportIICharging-roboport-charging-speed",
+		setting_type = "startup",
+		default_value = "3.5MW",
+	},
+	{
+		type = "string-setting",
+		name = "FasterPersonalRoboportIICharging-roboport-internal-buffer-capacity",
+		setting_type = "startup",
+		default_value = "35MJ",
 	},
 	{
 		type = "int-setting",
-		name = "FasterRoboportCharging-roboport-logistics-radius",
+		name = "FasterPersonalRoboportIICharging-roboport-construction-radius",
 		setting_type = "startup",
-		default_value = "25",
-	},
-	{
-		type = "int-setting",
-		name = "FasterRoboportCharging-roboport-construction-radius",
-		setting_type = "startup",
-		default_value = "55",
+		default_value = "30",
 	},
 })
